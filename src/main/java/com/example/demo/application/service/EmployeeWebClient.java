@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.application.service;
 
+import com.example.demo.domain.Employee;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -28,4 +29,5 @@ public class EmployeeWebClient {
 
         employeeFlux.subscribe(employee -> LOGGER.info("Employee: {}", employee));
     }
+
 }

@@ -24,5 +24,5 @@ mvn spring-boot:run
 After running the project, you can access the Swagger documentation at `http://localhost:8080/swagger-ui.html`.
 
 
-## License
-MIT License
+## Author
+Powered by [@rasysbox](https://rasysbox.com)
